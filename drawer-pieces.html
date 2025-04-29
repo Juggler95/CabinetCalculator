@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drawer Pieces</title>
+
+    <link rel="stylesheet" href="drawer-pieces.css" />
+  </head>
+  <body>
+    <h1>Drawer Pieces</h1>
+    <div class="input-container">
+      <div class="button-container">
+        <button type="submit" onclick="drawerPieces(); bottomDrawer();">
+          Calculate
+        </button>
+
+        <button type="button" onclick="resetValues();">Reset</button>
+
+        <button
+          type="button"
+          onclick="location.href='index.html';"
+          class="home-button"
+        >
+          Home
+        </button>
+      </div>
+
+      <input
+        type="number"
+        name="short-side"
+        id="short-side"
+        placeholder="Short Side"
+      />
+
+      <input
+        type="number"
+        name="long-side"
+        id="long-side"
+        placeholder="Long Side"
+      />
+    </div>
+
+    <!-- Drawer Pieces Container -->
+    <div class="drawer-container">
+      <h1>Drawer Pieces</h1>
+      <div class="drawer-values-container">
+        <p id="drawer-pieces-short-side-value">Short Side:</p>
+
+        <div class="empty-div"></div>
+
+        <div class="drawer-image">
+          <img src="drawer.svg" alt="" />
+        </div>
+
+        <p id="drawer-pieces-long-side-value">Long Side:</p>
+      </div>
+    </div>
+
+    <!-- Drawer Bottom Container-->
+
+    <div class="drawer-container">
+      <h1>Bottom Drawer</h1>
+      <div class="drawer-values-container">
+        <p id="drawer-bottom-short-side-value">Short Side:</p>
+
+        <div class="empty-div"></div>
+
+        <div class="wood"></div>
+
+        <p id="drawer-bottom-long-side-value">Long Side:</p>
+      </div>
+    </div>
+
+    <script src="drawer-pieces.js"></script>
+  </body>
+</html>

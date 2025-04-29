@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: whitesmoke;
+  font-family: sans-serif;
+}
+
+.button-container {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  background: green;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  transition: background 0.4s ease;
+}
+
+button:hover {
+  background: darkgreen;
+}
+
+input {
+  width: 100px;
+  height: 30px;
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+p {
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.drawer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers content vertically */
+  width: 100%; /* Ensures it spans the full width */
+  max-width: 800px; /* Optional: Limits the container width */
+  margin: 0 auto; /* Centers the container itself */
+  height: auto;
+  padding: 20px; /* Optional: Adds some padding around the container */
+}
+
+.drawer-container h1 {
+  margin-right: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: serif;
+  color: #333;
+  text-align: center; /* Centers the text within the container */
+  flex: 1; /* Allows the heading to take up available space */
+}
+
+.drawer-values-container {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  grid-template-columns: 300px 300px;
+  grid-row: auto auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input::placeholder {
+  padding-left: 10px;
+  color: rgba(255, 255, 255, 0.601);
+}
+
+.wood {
+  background-color: tan;
+  height: 500px;
+  width: 300px;
+  border-radius: 5px;
+}
