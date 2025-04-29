@@ -84,8 +84,9 @@ p {
 }
 
 input::placeholder {
-  padding-left: 10px;
+  /* padding-left: 10px; */
   color: rgba(255, 255, 255, 0.601);
+  width: 110px;
 }
 
 .wood {
