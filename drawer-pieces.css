@@ -94,20 +94,3 @@ input::placeholder {
   width: 300px;
   border-radius: 5px;
 }
-
-@media (max-width: 440px) {
-  .drawer-container {
-    flex-direction: column; /* Stacks items vertically on smaller screens */
-    align-items: center; /* Centers items horizontally */
-  }
-
-  .drawer-container h1 {
-    margin-right: 0; /* Resets margin for smaller screens */
-    margin-bottom: 20px; /* Adds space below the heading */
-  }
-
-  .drawer-values-container {
-    grid-template-columns: 1fr; /* Stacks items in a single column */
-    width: 100%; /* Makes it responsive to screen size */
-  }
-}
